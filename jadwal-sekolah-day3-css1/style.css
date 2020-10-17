@@ -1,0 +1,20 @@
+
+body {
+  background: #1C452B;
+}
+
+.container{
+  padding: 0 80px 0 80px;
+}
+
+.header{
+  color: #fff;
+}
+
+.footer{
+  color: #5AA275;
+}
+
+.text-yellow{
+  color: #FFCD00;
+}

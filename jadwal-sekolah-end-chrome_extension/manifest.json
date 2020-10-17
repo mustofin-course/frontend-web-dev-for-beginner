@@ -1,0 +1,21 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "manifest_version": 2,
+    "name": "Jadwal Kelas X MIPA 1 SMAI Singosari",
+    "short_name": "jadwal_x_mipa_1_smais",
+    "version": "0.0.1",
+    "description": "Jadwal Pelajaran Kelas X MIPA 1 SMAI Singosari Semester Genap Tahun Ajaran 2020/2021",
+    "browser_action": {
+        "default_title": "Jadwal Pelajaran Kelas X MIPA 1"
+    },
+    "icons": { "16": "logo_yp.png",
+           "48": "logo_yp.png",
+          "128": "logo_yp.png" },
+
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    }
+
+  }
+  

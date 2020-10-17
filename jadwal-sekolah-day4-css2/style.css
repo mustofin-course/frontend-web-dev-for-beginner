@@ -1,0 +1,73 @@
+
+body {
+  background: #1C452B;
+}
+
+.container{
+  padding: 0 80px 0 80px;
+}
+
+.header{
+  color: #fff;
+}
+
+.footer{
+  color: #5AA275;
+}
+
+.text-yellow{
+  color: #FFCD00;
+}
+
+
+/*==================================================================
+[ TABLE ]*/
+
+.tabeljadwal {
+  background: #29AB00;
+  color: #fff;
+  font-size: 14px;
+  background: -webkit-linear-gradient(-68deg, #29AB00 , #1C452B);
+  background: -o-linear-gradient(-68deg, #29AB00 , #1C452B);
+  background: -moz-linear-gradient(-68deg, #29AB00 , #1C452B);
+  background: linear-gradient(-68deg, #29AB00 , #1C452B);
+  border-radius: 16px;
+}
+
+.baris_judul th {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.baris_isi td {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.kolom_jam {
+  width: 265px;
+  padding-left: 42px;
+}
+
+.kolom_pelajaran {
+  width: 130px;
+  padding-left: 25px;
+}
+
+.tabeljadwal th {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-left: 0px;
+  background-color: rgba(255,255,255,0.32);
+}
+
+/*==================================================================
+[ HOVER ]*/
+
+.tabeljadwal .baris_isi:hover td {
+  background-color: rgba(255,255,255,0.1);
+}
+
+.tabeljadwal .baris_isi td:hover {
+  background-color: rgba(255,255,255,0.5);
+}
